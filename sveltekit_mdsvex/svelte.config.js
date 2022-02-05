@@ -16,7 +16,12 @@ const config = {
 		prerender: {
 			onError: 'continue'
 		},
-		trailingSlash: 'always'
+		trailingSlash: 'always',
+		vite: {
+			build: {
+				minify: false
+			}
+		}
 	}
 };
 
